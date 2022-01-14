@@ -1,0 +1,11 @@
+import React from 'react'
+
+function Placements() {
+    return (
+        <div>
+            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, totam.</h1>
+        </div>
+    )
+}
+
+export default Placements;

@@ -1,0 +1,18 @@
+.section1
+{
+    background: url(../images/20190719_093108.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 486px;
+}
+.overlay
+{
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 517px;
+    background-color: rgba(119, 30, 0, 0.5);
+}
