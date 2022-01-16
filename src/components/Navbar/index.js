@@ -3,6 +3,9 @@ import {
     Nav,
     NavLink,
     NavLogo,
+    NavLogoText,
+    Font1,
+    Font2,
     Bars,
     NavMenu,
 } from "./NavbarElements";
@@ -12,8 +15,12 @@ const Navbar = () => {
         <>
            <Nav>
             <NavLogo to="/">
-                <img src = {logo} alt="Logo" height="80" width="80" left="10%"/>
+                <img src = {logo} alt="Logo" height="70" width="70" left="10%"/>
             </NavLogo>
+            <NavLogoText to="/">
+                <Font1 to="/">DEPARTMENT OF INFORMATION AND COMMUNICATION TECHNOLOGY</Font1><br></br>
+                <Font2 to="/">MANIPAL INSTITUTE OF TECHNOLOGY, MANIPAL, INDIA</Font2>
+            </NavLogoText>
             <Bars />
 
             <NavMenu>

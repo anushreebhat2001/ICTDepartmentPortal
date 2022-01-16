@@ -34,7 +34,7 @@ cursor: pointer;
 export const NavMenu = styled.div`
   display: flex;
   align-items: right;
-  margin-left: 550px;
+  margin-left: 582px;
 
   @media screen and (max-width: 768px) {
     display: none;
