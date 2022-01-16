@@ -100,7 +100,27 @@ table{
     vertical-align: bottom;
 }
 
-.carousel{
-    background-color: black;
-    padding: 15vw;
+#myCarousel{
+  position: relative;
+  overflow: hidden;
+  width: 46.5vw;
+  display: flex;
+  float: right;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+
+#mission{
+  position: relative;
+  display: flex;
+  padding-left: 1.7vw;
+  width:46.5vw;
+  float:left;
+  align-self: right;
+}
+
+#container{
+  margin:3vw;
+  margin-top: auto;
+  margin-bottom: auto;
 }

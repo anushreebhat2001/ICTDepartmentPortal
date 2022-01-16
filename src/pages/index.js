@@ -21,7 +21,17 @@ const Home = () => {
       <div>
         <p class='exploremore'><a id='exlink' href="#dark">Explore more &or;</a></p></div>
         <div id='cl'><p className='head1'>DEPARTMENT of  I&amp;CT</p>
-        <div className='carousel'></div>
+        <div id='container'></div>
+        <div id='myCarousel'>
+      <div id='mission'>
+        <p><strong>Vision</strong>"Excellence in Information and Communication Technology education through continuous learning and teamwork"<br></br>
+          <strong>Mission</strong> "To provide expertise in planning, designing, implementing and deploying IT infrastructure, to realize information 
+          systems aiming at providing solutions to societal requirements, and to promote quality education and research." 
+          <br></br>The department offers B.Tech. (Information Technology, Computer and Communication Engineering), M.Tech. (Software Engineering, 
+          Computer Networking &amp; Engineering) and PhD programs.
+        </p>
+      </div>
+    </div>
         <div>
           <table>
           <tr>
