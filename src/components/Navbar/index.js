@@ -15,7 +15,7 @@ const Navbar = () => {
         <>
            <Nav>
             <NavLogo to="/">
-                <img src = {logo} alt="Logo" height="70" width="70" left="10%"/>
+                <img src = {logo} alt="Logo" height="65" left="10%"/>
             </NavLogo>
             <NavLogoText to="/">
                 <Font1 to="/">DEPARTMENT OF INFORMATION AND COMMUNICATION TECHNOLOGY</Font1><br></br>

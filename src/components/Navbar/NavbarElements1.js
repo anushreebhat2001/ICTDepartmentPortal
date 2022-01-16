@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
     background: black;
-    height: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    padding: 0.2rem calc((100vw - 1000px) / 2);
+    padding: 0.5vw;
     z-index: 12;
+    overflow:hidden;
     @media screen and (max-width: 768px) {
     display: none;
   }
@@ -34,7 +34,7 @@ cursor: pointer;
 export const NavMenu = styled.div`
   display: flex;
   align-items: right;
-  margin-left: 582px;
+  margin-left: 0.2vw
 
   @media screen and (max-width: 768px) {
     display: none;

@@ -5,32 +5,34 @@ import styled from "styled-components";
 export const Nav = styled.nav`
     background: white;
     height: 75px;
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
+    justify-content: space-between ;
     align-items: center;
-    padding: 0.2rem calc((100vw - 1000px) / 2);
+    padding: 0.2vw;
     z-index: 12;
 `;
 export const NavLogo = styled(Link)`
   cursor: pointer;
-  margin-left: -100px;
+  margin-left: 0;
+  padding:0;
 `;
 export const NavLogoText = styled(Link)`
   cursor: pointer;
   font-family: 'Times New Roman';
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.3vw;
   text-decoration: none;
   color: black;  
-  margin-left: -150px;
+  margin-left: 0.55vw;
 `;
 export const Font1 = styled(Link)`
-  font-size: 16px;
+  font-size: 1.2vw;
   text-decoration: none;
   color: black;
+  font-weight: bold;
 `;
 export const Font2 = styled(Link)`
-  font-size: 14px;
+  font-size: 1.1vw;
   text-decoration: none;
   color: black;
 `;
@@ -38,9 +40,10 @@ export const Font2 = styled(Link)`
 export const NavLink = styled(Link)`
 color: black;
 font-weight: 500;
-font-size: 16px;
+font-size: 1.2vw;
 display: flex;
 align-items: center;
+text-align:center;
 text-decoration: none;
 padding: 0 1rem;
 height: 100%;
@@ -70,7 +73,7 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -140px;
+  margin-left: 20vw;
 
   @media screen and (max-width: 768px) {
     display: none;

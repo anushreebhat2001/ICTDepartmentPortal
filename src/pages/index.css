@@ -4,21 +4,103 @@
     background-size: cover;
     position: relative;
     overflow: hidden;
-    width: 100%;
-    height: 496px;
+    height: 42.5vw;
 }
 .overlay
 {
     background-size: cover;
     position: relative;
     overflow: hidden;
-    width: 100%;
-    height: 496px;
+    height: 42.5vw;
     background-color: rgba(119, 30, 0, 0.5);
 }
 .heading{
     text-align: center;
     color: white;
-    margin-top: 220px;
-    font-size: 30px;
+    margin-top: 19vw;
+    font-size: 5vw;
+}
+
+.exploremore{
+    background-color: #B34610;
+    padding: 0.5%;
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+#exlink:link{
+    color:white;
+    text-decoration: none;
+}
+
+#exlink:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#white{
+    background-color: white;
+}
+#dark{
+    background-color: #2C1800;
+}
+
+#light{
+    background-color: #FFEBD8;
+}
+
+.div{
+    margin:0;
+}
+
+
+.head1{
+    color: black;
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    overflow: hidden;
+    margin: 2vw 0vw;
+}
+
+.head2{
+    color: white;
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 2.5vw 0vw;
+}
+
+.head3{
+    color: black;
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 2.5vw 0vw;
+}
+
+table{
+    position: relative;
+    color: black;
+    border-spacing: 12vw 0.5vw;
+    font-size: 2.25vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5vw;
+    margin-bottom: 2vw;
+    vertical-align: bottom;
+}
+
+.carousel{
+    background-color: black;
+    padding: 15vw;
 }

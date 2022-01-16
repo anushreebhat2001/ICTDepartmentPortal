@@ -8,6 +8,7 @@ import Research from './pages/research';
 import Contact from './pages/contact';
 import Placements from './pages/placements';
 import QP from './pages/qp';
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
