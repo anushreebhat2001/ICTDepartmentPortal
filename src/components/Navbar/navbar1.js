@@ -5,7 +5,6 @@ import {
     NavLink,
     NavMenu
 } from "./NavbarElements1";
-import logo from '../../images/220px-Manipal_University_logo.png';
 const Navbar1 = () => {
     return (
         <>

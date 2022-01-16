@@ -58,7 +58,7 @@ cursor: pointer;
 
 export const Bars = styled(FaBars)`
   display: none;
-  color: #fff;
+  color: black;
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;

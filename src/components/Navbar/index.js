@@ -21,7 +21,7 @@ const Navbar = () => {
                 <Font1 to="/">DEPARTMENT OF INFORMATION AND COMMUNICATION TECHNOLOGY</Font1><br></br>
                 <Font2 to="/">MANIPAL INSTITUTE OF TECHNOLOGY, MANIPAL, INDIA</Font2>
             </NavLogoText>
-            <Bars />
+            <Bars/>
 
             <NavMenu>
                 <NavLink to="/research">
