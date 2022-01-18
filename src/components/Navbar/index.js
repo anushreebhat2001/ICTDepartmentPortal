@@ -9,13 +9,14 @@ import {
     Bars,
     NavMenu,
 } from "./NavbarElements";
+import "./navbar.css";
 import logo from '../../images/220px-Manipal_University_logo.png';
 const Navbar = () => {
     return (
         <>
            <Nav>
             <NavLogo to="/">
-                <img src = {logo} alt="Logo" height="65" left="10%"/>
+                <img src = {logo} alt="Logo"/>
             </NavLogo>
             <NavLogoText to="/">
                 <Font1 to="/">DEPARTMENT OF INFORMATION AND COMMUNICATION TECHNOLOGY</Font1><br></br>

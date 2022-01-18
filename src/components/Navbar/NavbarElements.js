@@ -10,6 +10,14 @@ export const Nav = styled.nav`
     align-items: center;
     padding: 0.2vw;
     z-index: 12;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2.27vw;
+    @media screen and (max-width: 768px) {
+      position: relative;
+      top: 0vw;
+      height: 6vw;
+    }
 `;
 export const NavLogo = styled(Link)`
   cursor: pointer;
@@ -61,9 +69,9 @@ export const Bars = styled(FaBars)`
   color: black;
   @media screen and (max-width: 768px) {
     display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: relative;
+    margin-left: 50vw;
+    margin-bottom: 6vw;
     transform: translate(-100%, 75%);
     font-size: 1.8rem;
     cursor: pointer;

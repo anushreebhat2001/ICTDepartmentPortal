@@ -9,6 +9,9 @@ export const Nav = styled.nav`
     padding: 0.5vw;
     z-index: 12;
     overflow:hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     @media screen and (max-width: 768px) {
     display: none;
   }
