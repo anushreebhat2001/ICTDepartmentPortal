@@ -39,10 +39,10 @@ const Home = () => {
           <img id='imgcar' src={fadeImages[0]} />
         </div>
         <div id='imgcar' className="each-fade">
-          <img src={fadeImages[1]} />
+          <img id='imgcar' src={fadeImages[1]} />
         </div>
-        <div id='imgcar' className="each-fade">
-          <img src={fadeImages[2]} />
+        <div className="each-fade">
+          <img id='imgcar' src={fadeImages[2]} />
         </div>
       </Fade>
     </div>

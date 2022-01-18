@@ -16,19 +16,19 @@ const Navbar1 = () => {
                 <NavLink to="/about">
                     About
                 </NavLink>
-                <NavLink to="/forum">
+                <NavLink to="/Forum">
                     Forum
                 </NavLink>
-                <NavLink to="/academics">
+                <NavLink to="Academics">
                     Academics
                 </NavLink>
-                <NavLink to="/faculty">
+                <NavLink to="/Faculty">
                     Faculty
                 </NavLink>
-                <NavLink to="/news">
+                <NavLink to="/News">
                     News
                 </NavLink>
-                <NavLink to="/events">
+                <NavLink to="/Events">
                     Events
                 </NavLink>
                 <NavLink to="/Facilities">
