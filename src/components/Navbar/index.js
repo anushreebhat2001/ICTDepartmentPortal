@@ -1,4 +1,5 @@
 import React from "react";
+import { useMediaQuery } from "react-responsive";
 import {
     Nav,
     NavLink,
@@ -6,12 +7,15 @@ import {
     NavLogoText,
     Font1,
     Font2,
-    Bars,
     NavMenu,
 } from "./NavbarElements";
 import "./navbar.css";
+import { SmallNavbar } from "./smallnavbar";
 import logo from '../../images/220px-Manipal_University_logo.png';
+
+
 const Navbar = () => {
+    const issmallscreen = useMediaQuery ({ query: '(max-width: 768px)' });
     return (
         <>
            <Nav>
@@ -22,9 +26,9 @@ const Navbar = () => {
                 <Font1 to="/">DEPARTMENT OF INFORMATION AND COMMUNICATION TECHNOLOGY</Font1><br></br>
                 <Font2 to="/">MANIPAL INSTITUTE OF TECHNOLOGY, MANIPAL, INDIA</Font2>
             </NavLogoText>
-            <Bars/>
+             {issmallscreen && <SmallNavbar />}
 
-            <NavMenu>
+            {!issmallscreen && <NavMenu>
                 <NavLink to="/research">
                     Research
                 </NavLink>
@@ -37,7 +41,7 @@ const Navbar = () => {
                 <NavLink to="/contact">
                     Contact
                 </NavLink>
-            </NavMenu> 
+            </NavMenu> }
            </Nav> 
         </>
     );

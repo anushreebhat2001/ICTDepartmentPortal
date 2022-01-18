@@ -17,6 +17,9 @@ export const Nav = styled.nav`
       position: relative;
       top: 0vw;
       height: 6vw;
+      display: flex;
+      position: -webkit-sticky;
+      position: sticky;
     }
 `;
 export const NavLogo = styled(Link)`
@@ -32,6 +35,9 @@ export const NavLogoText = styled(Link)`
   text-decoration: none;
   color: black;  
   margin-left: 0.55vw;
+  @media screen and (max-width: 768px) {
+    margin-right: 45vw;
+  }
 `;
 export const Font1 = styled(Link)`
   font-size: 1.2vw;
