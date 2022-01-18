@@ -8,11 +8,20 @@ export const Nav = styled.nav`
     display: inline-flex;
     justify-content: space-between ;
     align-items: center;
-    padding: 0.2vw;
+    padding: 0.5vw;
+    margin:0;
     z-index: 12;
     position: -webkit-sticky;
     position: sticky;
-    top: 2.27vw;
+    top: 2vw;
+    @media screen and (max-width: 1200px) {
+      position: relative;
+      top: 2.6vw;
+      height: 6vw;
+      display: flex;
+      position: -webkit-sticky;
+      position: sticky;
+    }
     @media screen and (max-width: 768px) {
       position: relative;
       top: 0vw;

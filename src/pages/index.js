@@ -36,12 +36,12 @@ const Home = () => {
         <div className="slide-container">
       <Fade>
         <div className="each-fade">
-          <img src={fadeImages[0]} />
+          <img id='imgcar' src={fadeImages[0]} />
         </div>
-        <div className="each-fade">
+        <div id='imgcar' className="each-fade">
           <img src={fadeImages[1]} />
         </div>
-        <div className="each-fade">
+        <div id='imgcar' className="each-fade">
           <img src={fadeImages[2]} />
         </div>
       </Fade>
@@ -121,13 +121,13 @@ const Home = () => {
       </div>
       <div id='light' className='div'><div id='cl'><p className='head3'>I&amp;CT NEWS/ANNOUNCEMENTS</p></div>
       <div id="news">
-        <img className='article' id='big'></img>
-        <img className='article' id='small'></img>
-        <img className='article' id='small'></img></div>
+        <div className='article' id='big'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum...<a id="newread" href="#">Read more</a></p></div>
+        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="#">Read more</a></p></div>
+        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="#">Read more</a></p></div></div>
         <div id="news">
-        <img className='article' id='small'></img>
-        <img className='article' id='small'></img>
-        <img className='article' id='big'></img>
+        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="#">Read more</a></p></div>
+        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="#">Read more</a></p></div>
+        <div className='article' id='big'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum...<a id="newread" href="#">Read more</a></p></div>
       </div>
       <div id="button"><a id="href2" href="#white">MORE I&amp;CT NEWS/ANNOUNCEMENTS</a></div>
       </div>
@@ -135,18 +135,25 @@ const Home = () => {
       <div><div id="research"><p id="current">Current Research</p></div>
         <form>
           <ul id='list1'>
-            <li>Lorem Ipsum</li>
-            <li>Lorem Ipsum</li>
-            <li>Lorem Ipsum</li>
-            <li>Lorem Ipsum</li>
-            <li>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
           </ul>
           <ul id='list2'>
-            <li>Lorem Ipsum</li>
-            <li>Lorem Ipsum</li>
-            <li>Lorem Ipsum</li>
-            <li>Lorem Ipsum</li>
-            <li>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
+          </ul>
+          <ul id='list2'>
+            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Lorem Ipsum</li>
           </ul>
         </form>
         </div>

@@ -20,7 +20,7 @@ const Navbar = () => {
         <>
            <Nav>
             <NavLogo to="/">
-                <img src = {logo} alt="Logo"/>
+                <img id='logo' src = {logo} alt="Logo"/>
             </NavLogo>
             <NavLogoText to="/">
                 <Font1 to="/">DEPARTMENT OF INFORMATION AND COMMUNICATION TECHNOLOGY</Font1><br></br>
