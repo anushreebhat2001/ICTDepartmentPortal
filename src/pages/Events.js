@@ -1,19 +1,19 @@
 import React from "react";
 import "./events.css";
-import { EventCard } from "../components/eventscard/EventsCard";
+import { EventCard } from "../components/eventscard/EventsCard.js";
 
 const Events = () => {
     return (
         <div>
-            <div className = 'section1'>
-                <div className = 'overlay'>
-                <div className = 'heading'>
+            <div className = 'section'>
+                <div className = 'overlay1'>
+                <div className = 'heading1'>
                     I&CT EVENTS
                 </div>
                 </div>
             </div>
-            <div id="pannel">
-                <table id="ecard">
+            <div id="pannel1">
+                <table id="ecard1">
                     <tr>
                         <td><EventCard></EventCard></td>
                         <td><EventCard></EventCard></td>
