@@ -37,9 +37,8 @@ function App() {
         <Route path="/qp" element={<QP/>} />
         <Route path="/placements" element={<Placements/>} />
         <Route path="/contact" element={<Contact/>} />
-
       </Routes>
-    <Footer />
+      <Footer />
     </Router>
   );
 }

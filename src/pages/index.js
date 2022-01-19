@@ -3,6 +3,7 @@ import Typical from 'react-typical';
 import "./index.css";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
+import { EventCard } from "../components/eventscard/EventsCard";
 
 const fadeImages = [
   "https://manipal.edu/content/dam/manipal/mu/mit/images/galleryImage/1-mit-laboratory.jpg",
@@ -76,46 +77,14 @@ const Home = () => {
           <p className='head2'>I&amp;CT EVENTS</p>
         </div>
         <div id="pannel">
-        <div id="card">
-        <div id="calendar"><p id='date'><strong>12</strong><br></br>Jan</p></div>
-          <div id="uppercard"></div>
-          <div id="lowercard">
-            <p id="details">
-            <strong>EVENT NAME<br></br></strong><strong><br></br>Venue: </strong> Teams<br></br><strong>Time: </strong> 5:00PM
-            </p>
-            <div id="read"><a className="readmore" href="#">Read more</a>
-          </div></div>
-        </div>
-        <div id="card1">
-        <div id="calendar"><p id='date'><strong>12</strong><br></br>Jan</p></div>
-          <div id="uppercard"></div>
-          <div id="lowercard">
-            <p id="details">
-            <strong>EVENT NAME<br></br></strong><strong><br></br>Venue: </strong> Teams<br></br><strong>Time: </strong> 5:00PM
-            </p>
-            <div id="read"><a className="readmore" href="#">Read more</a>
-          </div></div>
-        </div>
-        <div id="card2">
-        <div id="calendar"><p id='date'><strong>12</strong><br></br>Jan</p></div>
-          <div id="uppercard"></div>
-          <div id="lowercard">
-            <p id="details">
-            <strong>EVENT NAME<br></br></strong><strong><br></br>Venue: </strong> Teams<br></br><strong>Time: </strong> 5:00PM
-            </p>
-            <div id="read"><a className="readmore" href="#">Read more</a>
-          </div></div>
-        </div>
-        <div id="card3">
-        <div id="calendar"><p id='date'><strong>12</strong><br></br>Jan</p></div>
-          <div id="uppercard"></div>
-          <div id="lowercard">
-            <p id="details">
-            <strong>EVENT NAME<br></br></strong><strong><br></br>Venue: </strong> Teams<br></br><strong>Time: </strong> 5:00PM
-            </p>
-            <div id="read"><a className="readmore" href="#">Read more</a>
-          </div></div>
-        </div>
+        <table id="ecard">
+        <tr>
+          <td><EventCard></EventCard></td>
+          <td><EventCard></EventCard></td>
+          <td><EventCard></EventCard></td>
+          <td><EventCard></EventCard></td>
+          </tr>
+        </table>
         </div>
         <div id="button"><a id="href1" href="#white">MORE I&amp;CT EVENTS</a></div>
       </div>

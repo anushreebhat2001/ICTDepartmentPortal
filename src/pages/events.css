@@ -1,0 +1,35 @@
+.section1
+{
+    background: url(../images/20190719_093108.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 15.5vw;
+}
+.overlay
+{
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 42.5vw;
+    background-color: rgba(119, 30, 0, 0.5);
+}
+.heading{
+    text-align: center;
+    color: white;
+    margin-top: 6vw;
+    font-size: 4vw;
+    font-weight: 600;
+    font-family: Roboto;
+}
+#pannel{
+    position: relative;
+    margin-left: 2vw;
+    width: 21vw;
+    height: 43vw;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#ecard {
+    border-spacing: 1vw 0.5vw;
+}
