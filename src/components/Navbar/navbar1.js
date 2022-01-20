@@ -13,7 +13,7 @@ const Navbar1 = () => {
                 <NavLink to="/">
                     Home
                 </NavLink>
-                <NavLink to="/about">
+                <NavLink to="/#white">
                     About
                 </NavLink>
                 <NavLink to="/Forum">

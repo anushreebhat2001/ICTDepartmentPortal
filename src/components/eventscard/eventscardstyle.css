@@ -32,9 +32,10 @@
 #details{
     width: 19.5vw;
     position: relative;
-    padding-left: 0vw;
+    padding-left: 2vw;
     padding-top: 3vw;
     margin: 0;
+    text-align: left;
     font-size: 1.9vw;
     color: black;
 }

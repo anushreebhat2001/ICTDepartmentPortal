@@ -6,7 +6,7 @@
     overflow: hidden;
     height: 15.5vw;
 }
-.overlay1
+.overlay2
 {
     background-size: cover;
     position: relative;
@@ -14,22 +14,45 @@
     height: 42.5vw;
     background-color: rgba(119, 30, 0, 0.5);
 }
-.heading1{
+.heading2{
     text-align: center;
     color: white;
     margin-top: 6vw;
     font-size: 4vw;
-    font-weight: 600;
-    font-family: Roboto;
+    font-weight: 650;
 }
+
+#bg{
+    background-color: rgb(255, 244, 230);
+    padding-bottom: 8vw
+}
+
 #pannel1{
     position: relative;
     margin-left: 2vw;
+    padding-bottom: 6vw;
     width: 21vw;
-    height: 43vw;
+    height: 35vw;
     display: flex;
     flex-wrap: nowrap;
 }
 #ecard1 {
     border-spacing: 1vw 0.5vw;
+}
+
+.contacts{
+    font-size: 4vw;
+    margin:0;
+    padding-top: 5vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    color: rgba(119, 30, 0);
+}
+
+#pqp{
+    margin:0;
+    padding-left:5vw;
+    padding-right:5vw;
+    padding-top:7vw;
+
 }

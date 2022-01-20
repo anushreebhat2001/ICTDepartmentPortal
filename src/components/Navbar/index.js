@@ -39,7 +39,7 @@ const Navbar = () => {
                     Placements
                 </NavLink>
                 <NavLink to="/contact">
-                    Contact
+                    Contacts
                 </NavLink>
             </NavMenu> }
            </Nav> 

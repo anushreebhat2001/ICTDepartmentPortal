@@ -63,37 +63,40 @@ export function SmallNavbar () {
             <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
             {isOpen && <NavMenu> Menu
                 <NavLink>
-                    <Link href="#">Home </Link>
+                    <Link href="/">Home </Link>
                 </NavLink>
                 <NavLink>
-                    <Link href="#">Forum </Link>
+                    <Link href="/#white">About </Link>
                 </NavLink>
                 <NavLink>
-                    <Link href="#">Academic </Link>
+                    <Link href="/Forum">Forum </Link>
                 </NavLink>
                 <NavLink>
-                    <Link href="#">Faculty </Link>
+                    <Link href="/Academics">Academic </Link>
                 </NavLink>
                 <NavLink>
-                    <Link href="#">News </Link>
+                    <Link href="/Faculty">Faculty </Link>
                 </NavLink>
                 <NavLink>
-                    <Link href="#">Events </Link>
+                    <Link href="/News">News </Link>
                 </NavLink>
                 <NavLink>
-                    <Link href="#">Research </Link>
+                    <Link href="/Events">Events </Link>
                 </NavLink>
                 <NavLink>
-                    <Link href="#">Question Papers </Link> 
+                    <Link href="/research">Research </Link>
                 </NavLink>
                 <NavLink>
-                    <Link href="#">Placements </Link>
+                    <Link href="/qp">Question Papers </Link> 
                 </NavLink>
                 <NavLink>
-                    <Link href="#">Contact</Link>
+                    <Link href="/placements">Placements </Link>
                 </NavLink>
                 <NavLink>
-                    <Link href="#">Facilities</Link>
+                    <Link href="/contact">Contacts</Link>
+                </NavLink>
+                <NavLink>
+                    <Link href="/Facilities">Facilities</Link>
                 </NavLink>
             </NavMenu> }
            </Nav>

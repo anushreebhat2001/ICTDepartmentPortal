@@ -79,26 +79,26 @@ const Home = () => {
         <div id="pannel">
         <table id="ecard">
         <tr>
-          <td><EventCard></EventCard></td>
-          <td><EventCard></EventCard></td>
-          <td><EventCard></EventCard></td>
-          <td><EventCard></EventCard></td>
+        <td><EventCard day='10' month='Jan' eventname='Event 1' venue='Venue 1' time='Time1' link='/Events'/></td>
+          <td><EventCard day='11' month='Jan' eventname='Event 2' venue='Venue 2' time='Time2' link='/Events'/></td>
+          <td><EventCard day='12' month='Jan' eventname='Event 3' venue='Venue 3' time='Time3' link='/Events'/></td>
+          <td><EventCard day='13' month='Jan' eventname='Event 4' venue='Venue 4' time='Time4' link='/Events'/></td>
           </tr>
         </table>
         </div>
-        <div id="button"><a id="href1" href="#white">MORE I&amp;CT EVENTS</a></div>
+        <div id="button"><a id="href1" href="/Events">MORE I&amp;CT EVENTS</a></div>
       </div>
       <div id='light' className='div'><div id='cl'><p className='head3'>I&amp;CT NEWS/ANNOUNCEMENTS</p></div>
       <div id="news">
-        <div className='article' id='big'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum...<a id="newread" href="#">Read more</a></p></div>
-        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="#">Read more</a></p></div>
-        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="#">Read more</a></p></div></div>
+        <div className='article' id='big'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum...<a id="newread" href="/News">Read more</a></p></div>
+        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="/News">Read more</a></p></div>
+        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="/News">Read more</a></p></div></div>
         <div id="news">
-        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="#">Read more</a></p></div>
-        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="#">Read more</a></p></div>
-        <div className='article' id='big'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum...<a id="newread" href="#">Read more</a></p></div>
+        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="/News">Read more</a></p></div>
+        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="/News">Read more</a></p></div>
+        <div className='article' id='big'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum...<a id="newread" href="/News">Read more</a></p></div>
       </div>
-      <div id="button"><a id="href2" href="#white">MORE I&amp;CT NEWS/ANNOUNCEMENTS</a></div>
+      <div id="button"><a id="href2" href="/News">MORE I&amp;CT NEWS/ANNOUNCEMENTS</a></div>
       </div>
       <div id='white' className='div'><div id='cl'><p className='head3'>AREAS OF RESEARCH</p></div>
       <div><div id="research"><p id="current">Current Research</p></div>
@@ -126,7 +126,7 @@ const Home = () => {
           </ul>
         </form>
         </div>
-      <div id="button"><a id="href3" href="#white">MORE IN I&amp;CT RESEARCH</a></div>
+      <div id="button"><a id="href3" href="/research">MORE IN I&amp;CT RESEARCH</a></div>
       </div>
     </div>  
   );
