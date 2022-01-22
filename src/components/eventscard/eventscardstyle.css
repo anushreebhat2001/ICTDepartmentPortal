@@ -47,15 +47,18 @@
     text-align: right;
 }
 
-a.readmore:link{
+.readmore{
+    background-color: white;
+    border: none;
     color: #573000;
     font-weight: 500;
     font-size: 1.6vw;
     vertical-align: top;
     text-decoration: none;
+    cursor: pointer;
 }
 
-a.readmore:hover{
+.readmore:hover{
     color: #754c19;
     font-weight: 700;
     vertical-align: top;
@@ -63,12 +66,6 @@ a.readmore:hover{
     text-decoration: none;
 }
 
-a.readmore:visited{
-    color: #573000;
-    vertical-align: top;
-    font-size: 1.6vw;
-    text-decoration: none;
-}
 
 #calendar{
     position: relative;
