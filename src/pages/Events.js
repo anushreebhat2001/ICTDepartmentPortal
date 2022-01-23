@@ -18,7 +18,7 @@ const Events = () => {
         <tr>
           <td><EventCard day='10' month='Jan' eventname='Event 1' venue='Venue 1' time='Time1' link='/Events'/></td>
           <td><EventCard day='11' month='Jan' eventname='Event 2' venue='Venue 2' time='Time2' link='/'/></td>
-          <td><EventCard day='12' month='Jan' eventname='Event 3' venue='Venue 3' time='Time3' link='/Events'/></td>
+          <td><EventCard day='12' month='Jan' eventname='Event 3' venue='Venue 3' time='Time3' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud'/></td>
           <td><EventCard day='13' month='Jan' eventname='Event 4' venue='Venue 4' time='Time4' link='/Events'/></td>
           </tr>
         </table>

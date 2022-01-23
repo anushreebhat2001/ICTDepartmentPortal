@@ -8,8 +8,8 @@ const ForumCard = ({ title, text, threads, tags, link }) => {
             {/* The cards will be white and contain the heading of the post and a couple of lines of the post, to the right will be the number of threads */}
             <div class="leftSide">
                 <h2>{title}</h2>
-                <h3>{text}</h3>
-                <h4>{tags}</h4> {/*The topics and people it is relevant to, tags will also be used to list the posts of that particular tag*/}
+                <h3 id='forumdesc'>{text}</h3>
+                <h4 id='forumtags'>{tags}</h4> {/*The topics and people it is relevant to, tags will also be used to list the posts of that particular tag*/}
             </div>
             <div class="rightSide">
                 <h3>{threads}</h3>
@@ -38,9 +38,13 @@ const ForumCardStyled = styled.a`
         padding-right: 20px;
     }
 
-    h4
+    #forumdesc{
+        font-weight:500;
+    }
+
+    #forumtags
     {
-        color: #F06E20;
+        color: rgba(119, 30, 0);
 
         &:hover
         {

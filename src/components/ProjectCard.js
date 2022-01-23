@@ -15,14 +15,14 @@ const ProjectCard = ({ Topic, Prerequisites, Faculty, Link, LastDate }) => {
 
 const ProjectCardStyled = styled.div`
     display: flex;
-    padding: 2.5rem;
+    padding: 2.5vw;
     flex-direction: row;
-    border-top: 0.125px solid grey;
-    border-left: 0.25px solid grey;
-    border-left: 0.25px solid grey;
-    border-bottom: 0.125px solid grey;
+    border-bottom: 0.5px solid black;
     justify-content: space-evenly;
 
+    h4{
+        padding:3vw;
+    }
     a
     {
         text-decoration: none;

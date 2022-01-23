@@ -30,6 +30,7 @@ const Research = () => {
 }
 
 const ProjectsStyled = styled.div`
+   margin:0vw 3vw;
 
 `
 

@@ -14,31 +14,38 @@
     width: 70%;
     margin: 0 auto;
     height: auto;
-    max-height: 70vh;
-    margin-top: calc(100vh - 85vh - 20px);
+    max-height: 100vh;
+    margin-top: calc(100vh - 85vh );
     background: #fff;
     border-radius: 4px;
     padding: 20px;
-    border: 1px solid #999;
+    border: 1px solid #381f00;
     overflow: auto;
   }
   
   .close-icon {
     content: 'x';
+    color: #381f00;
     cursor: pointer;
     position: fixed;
     right: calc(15% - 30px);
-    top: calc(100vh - 80vh - 60px);
-    background: #ededed;
+    top: calc(100vh - 80vh - 50px);
+    background: #fff2e1;
     width: 25px;
     height: 25px;
     border-radius: 50%;
     line-height: 20px;
     text-align: center;
-    border: 1px solid #999;
+    border: 1px solid #381f00;
     font-size: 20px;
   }
 
   .close-button {
-      cursor: pointer;
-  }
+    cursor: pointer;
+    font-weight: 600;
+    border-color: #573000;
+    font-size: 2.5vw;
+    padding:1vw 2vw;
+    color: white;
+    background-color: #573000;
+}
