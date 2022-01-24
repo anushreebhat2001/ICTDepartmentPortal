@@ -56,3 +56,47 @@
     padding-top:7vw;
 
 }
+
+.cdetails{
+    padding-top: 4vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+
+}
+
+.course:link{
+    color: #772800;
+    font-weight: 600;
+}
+
+.course:hover{
+    color: #411600;
+    font-weight: 700;
+    
+}
+
+.course:active{
+    color: #aa3900;
+}
+
+.course:visited{
+    color: #aa3900;
+}
+
+.cdet:link{
+    color: #5e1f00;
+    text-decoration: none;
+}
+
+.cdet:hover{
+    color: #b43c00;
+    font-weight: 600;
+}
+
+.cdet:active{
+    color: #812b00;
+}
+
+.cdet:visited{
+    color: #5f2000;
+}
