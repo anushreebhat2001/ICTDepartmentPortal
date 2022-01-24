@@ -13,6 +13,7 @@ const Contact = () => {
                 </div>
             </div>
             <div id="bg">
+
             <h2 className="contacts">Contact List-</h2>
             <ContactCard title='Research Co-ordinator' name='DR. MANOHARA PAI M.M' email='mailto:mmm.pai@manipal.edu' mailid='mmm.pai@manipal.edu'/>
             <ContactCard title='PG  Project Co-ordinator' name='DR. MANJULA SHENOY K' email='mailto:manju.shenoy@manipal.edu' mailid='manju.shenoy@manipal.edu'/>

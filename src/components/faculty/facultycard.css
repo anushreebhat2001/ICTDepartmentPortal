@@ -11,3 +11,8 @@
     margin:3vw;
     border-bottom: 1px solid black;
 }
+.search-bar {
+    margin-left: 3vw;
+    height: 2vw;
+    width: 15vw;
+}

@@ -31,13 +31,18 @@
     right: calc(15% - 30px);
     top: calc(100vh - 80vh - 50px);
     background: #fff2e1;
-    width: 25px;
-    height: 25px;
+    width: 3vw;
+    height: 3vw;
     border-radius: 50%;
     line-height: 20px;
     text-align: center;
     border: 1px solid #381f00;
     font-size: 20px;
+  }
+  .close-icon-content {
+    font-size: 2vw;
+    margin-bottom: 0;
+    margin-top: 0.5vw;
   }
 
   .close-button {
