@@ -15,7 +15,7 @@ const Faculty = () => {
             </div>
             <div id="bg">
             <p id='para'>Faculty of the Department of Information and Communication Technology at MIT for BTech (Information Technology, Computer & Communication Engineering), and MTech (Software Engineering, Computer Networking & Engineering).<br></br><br></br><strong>Faculty List</strong></p>
-                <div><input className="search-bar" placeholder = "Search" onChange={event => setQuery(event.target.value)}/></div>
+                <div><input type="search" className="search-bar" placeholder = "Search" onChange={event => setQuery(event.target.value)}/></div>
                     {
                         Data.filter(post => {
                             if (query === '') {
