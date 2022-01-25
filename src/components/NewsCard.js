@@ -33,7 +33,18 @@ const NewsCardStyled = styled.main`
     padding-top: 2vw;
     padding-left: 4vw;
     padding-right: 4vw;
-    
+    #eventname{
+        padding:3vw;
+        font-size:3.6vw;
+    }
+    #popupcard{
+        padding-left:3vw;
+        font-size:2.3vw;
+    }
+    #popupdesc{
+        padding-left:3vw;
+        font-size: 2vw;
+    }
     #day{
         font-weight:500;
         color:#B34610;

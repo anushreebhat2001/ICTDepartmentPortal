@@ -14,8 +14,8 @@
     width: 70%;
     margin: 0 auto;
     height: auto;
-    max-height: 100vh;
-    margin-top: calc(100vh - 85vh );
+    max-height: 60vw;
+    margin-top: calc(100vh - 88vh);
     background: #fff;
     border-radius: 4px;
     padding: 20px;
@@ -29,7 +29,7 @@
     cursor: pointer;
     position: fixed;
     right: calc(15% - 30px);
-    top: calc(100vh - 80vh - 50px);
+    top: calc(100vh - 80vh - 75px);
     background: #fff2e1;
     width: 3vw;
     height: 3vw;
@@ -40,7 +40,8 @@
     border: 1px solid #381f00;
   }
   .close-icon-content {
-    font-size: 2vw;
+    font-size: 2.5vw;
+    font-weight: 500;
     margin-bottom: 0;
     margin-top: 0.5vw;
   }
@@ -49,8 +50,9 @@
     cursor: pointer;
     font-weight: 600;
     border-color: #573000;
-    font-size: 2.5vw;
-    padding:1vw 2vw;
+    font-size: 2vw;
+    padding:0.6vw 1.5vw;
     color: white;
+    margin: -0.5vw 3vw 2vw 3vw;
     background-color: #573000;
 }
