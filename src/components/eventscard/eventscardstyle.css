@@ -47,6 +47,16 @@
     text-align: right;
 }
 
+.readmorenews{
+    background-color: rgb(255, 244, 230);
+    border: none;
+    color: #573000;
+    font-weight: 50;
+    vertical-align: top;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .readmore{
     background-color: white;
     border: none;

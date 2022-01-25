@@ -1,15 +1,28 @@
-import React from 'react'
-import styled from 'styled-components'
-
-
-const NewsCard = ({ title, day, description, link }) => {
-    return (
+import React, { useState } from "react";
+import styled from 'styled-components';
+import Popup from "./popup/Popup";
+    
+    export function NewsCard ({ title, day, description })  {
+        const [isOpen, setIsOpen] = useState(false);
+    
+        const togglePopup = () => {
+            setIsOpen(!isOpen);
+        }
+        return (
         <NewsCardStyled>
             {/* The cards will be white and contain the heading of the post and a couple of lines of the post, to the right will be the number of threads */}
             <div className="main">
                 <h2 className="News">{title}</h2>
                 <p id='day'>{day}</p>
-                <p id='pan'>{description}...<span><a id='readnews' href={link}>Read more</a></span></p>
+                <p id='pan'>{description}...<span><div id="read"><button className="readmorenews" onClick={togglePopup} >Read more</button></div>
+                {isOpen && <Popup
+                content={<>
+                    <b id="eventname">{title}</b>
+                    <p id="popupcard"><strong>Day:</strong> {day}<br></br></p>
+                    <p id="popupdesc">{description}</p>
+                </>}
+                handleClose={togglePopup}
+                />}</span></p>
             </div>
         </NewsCardStyled>
     )
@@ -38,6 +51,10 @@ const NewsCardStyled = styled.main`
         margin-top:1vw
         line-height: 3vw;
         padding-right: 4vw;
+    }
+
+    .readmorenews{
+        font-weight:600;
     }
 
     #readnews:hover

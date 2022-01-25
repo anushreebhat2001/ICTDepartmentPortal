@@ -34,10 +34,10 @@
     width: 3vw;
     height: 3vw;
     border-radius: 50%;
-    line-height: 20px;
+    line-height: 1.6vw;
     text-align: center;
+    padding: 0.8vw;
     border: 1px solid #381f00;
-    font-size: 20px;
   }
   .close-icon-content {
     font-size: 2vw;
