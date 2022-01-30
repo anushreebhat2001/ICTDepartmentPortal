@@ -41,6 +41,9 @@ const Navbar = () => {
                 <NavLink to="/contact">
                     Contacts
                 </NavLink>
+                <NavLink to="/Admin">
+                    Admin
+                </NavLink>
             </NavMenu> }
            </Nav> 
         </>

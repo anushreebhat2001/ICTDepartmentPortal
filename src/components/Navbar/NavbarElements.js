@@ -71,11 +71,16 @@ text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
+
 &.active {
-  color:black;
+  color: rgb(223, 122, 0);
 }
+
 &:hover {
-  color: grey;
+  color: rgb(160, 93, 12);
+}
+&:link {
+  color: black;
 }
 `;
 

@@ -26,11 +26,14 @@ text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
-&.active {
+&.link{
   color:white;
 }
+&.active {
+  color:darkorange;
+}
 &:hover {
-  color: grey;
+  color: wheat;
 }
 `;
 
