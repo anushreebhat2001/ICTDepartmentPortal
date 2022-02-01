@@ -65,8 +65,8 @@ const Home = () => {
           </tr>
           <tr>
             <td>2000</td>
-            <td>20000</td>
-            <td>3000</td>
+            <td>1000+</td>
+            <td>63</td>
           </tr>
           </table>
         </div>

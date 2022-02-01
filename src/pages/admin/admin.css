@@ -1,5 +1,6 @@
 #mainhead{
-    padding:3vw;
+    padding-left:3vw;
+    font-size: 3vw;
 }
 #mainadmin{
     margin:5vw;
@@ -19,7 +20,6 @@
 
 #buttonhref:link{
     color: rgb(99, 59, 0);
-    text-decoration: none;
 }
 #buttonhref:hover{
     color: rgb(29, 16, 0);
