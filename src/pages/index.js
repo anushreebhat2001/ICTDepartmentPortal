@@ -4,6 +4,7 @@ import "./index.css";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import { EventCard } from "../components/eventscard/EventsCard";
+import EventsData from "../components/events/events-info.json";
 
 const fadeImages = [
   "https://manipal.edu/content/dam/manipal/mu/mit/images/galleryImage/1-mit-laboratory.jpg",
@@ -77,14 +78,52 @@ const Home = () => {
           <p className='head2'>I&amp;CT EVENTS</p>
         </div>
         <div id="pannel">
-        <table id="ecard">
-        <tr>
-        <td><EventCard day='10' month='Jan' eventname='Event 1' venue='Venue 1' time='Time1' link='/Events'/></td>
-          <td><EventCard day='11' month='Jan' eventname='Event 2' venue='Venue 2' time='Time2' link='/Events'/></td>
-          <td><EventCard day='12' month='Jan' eventname='Event 3' venue='Venue 3' time='Time3' link='/Events'/></td>
-          <td><EventCard day='13' month='Jan' eventname='Event 4' venue='Venue 4' time='Time4' link='/Events'/></td>
-          </tr>
-        </table>
+              {
+                  <table id='ecard1'>
+                  <tr>
+                  <td>
+                  <EventCard 
+                    day={EventsData[0].d1} 
+                    month={EventsData[0].m1} 
+                    eventname={EventsData[0].n1}
+                    venue={EventsData[0].v1} 
+                    time={EventsData[0].t1} 
+                    description={EventsData[0].desc1}
+                    link='/Events'/>
+                    </td>
+                    <td>
+                  <EventCard 
+                    day={EventsData[0].d2} 
+                    month={EventsData[0].m2} 
+                    eventname={EventsData[0].n2}
+                    venue={EventsData[0].v2} 
+                    time={EventsData[0].t2} 
+                    description={EventsData[0].desc2}
+                    link='/Events'/>
+                    </td>
+                    <td>
+                  <EventCard 
+                    day={EventsData[0].d3} 
+                    month={EventsData[0].m3} 
+                    eventname={EventsData[0].n3}
+                    venue={EventsData[0].v3} 
+                    time={EventsData[0].t3} 
+                    description={EventsData[0].desc3}
+                    link='/Events'/>
+                    </td>
+                    <td>
+                  <EventCard 
+                    day={EventsData[0].d4} 
+                    month={EventsData[0].m4} 
+                    eventname={EventsData[0].n4}
+                    venue={EventsData[0].v4} 
+                    time={EventsData[0].t4} 
+                    description={EventsData[0].desc4}
+                    link='/Events'/>
+                    </td>
+                    </tr>
+                  </table>
+              }
         </div>
         <div id="button"><a id="href1" href="/Events">MORE I&amp;CT EVENTS</a></div>
       </div>

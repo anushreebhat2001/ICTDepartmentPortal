@@ -8,7 +8,7 @@
         "mail": "adesh.nd@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTAjithaShenoy.jpg",
         "name": "Dr. Ajitha Shenoy K B",
         "position": "Associate Professor - Senior Scale",
         "qualification": "M.Sc., M.Tech.(CS&IS), Ph.D. (Algorithms)",
@@ -16,7 +16,7 @@
         "mail": "ajith.shenoy@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTAkshayMJ.jpg",
         "name": "Mr. Akshay M J",
         "position": "Assistant Professor",
         "qualification": "B.E. (CSE), M.Tech. (CSE), Ph.D.* (Information Abuse)",
@@ -24,7 +24,7 @@
         "mail": "akshay.mj@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTAkshayKC.jpg",
         "name": "Mr. Akshay K C",
         "position": "Assistant Professor - Senior Scale",
         "qualification": "B.E.(ISE), M.Tech. (S/W), Ph.D.* (Cloud Security)",
@@ -40,7 +40,7 @@
         "mail": "anju.r@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTArjun.jpg",
         "name": "Mr. Arjun C V",
         "position": "Assistant Professor",
         "qualification": "B.E.(CSE), M.Tech.(CSE)",
@@ -48,7 +48,7 @@
         "mail": "arjun.cv@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTAnuradhaRao.jpg",
         "name": "Mrs. Anuradha Rao",
         "position": "Assistant Professor - Senior Scale",
         "qualification": "M.C.A., M.Tech.(IT)",
@@ -56,7 +56,7 @@
         "mail": "anuradha.rao@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTAnushaHegde.jpg",
         "name": "Mrs. Anusha Hegde",
         "position": "Assistant Professor",
         "qualification": "B.E.(ISE), M.Tech.(CSE)",
@@ -64,7 +64,7 @@
         "mail": "anusha.hegde@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTBalachandra.jpg",
         "name": "Dr. Balachandra",
         "position": "Professor",
         "qualification": "B.E.(CSE), M.Tech.(CSE), Ph.D.(Network Security)",
@@ -72,7 +72,7 @@
         "mail": "bala.chandra@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTChandrakala.jpg",
         "name": "Dr. Chandrakala C B",
         "position": "Associate Professor-Senior Scale",
         "qualification": "B.E.(E&C), M.Tech.(S/W), Ph.D. (Data Handling in MANETs)",
@@ -80,7 +80,7 @@
         "mail": "chandrakala.cb@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTChetanaP.jpg",
         "name": "Mrs. Chetana Pujari",
         "position": "Assistant Professor - Senior Scale",
         "qualification": "B.E.(ISE), M.Tech. (CSE), Ph.D.* (Information Security Using Blockchain Technology)",
@@ -88,7 +88,7 @@
         "mail": "chetana.pujari@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTChethanSharma.jpg",
         "name": "Mr. Chethan Sharma",
         "position": "Assistant Professor - Senior Scale",
         "qualification": "BE(CSE), MTech (CSE), PhD* (computer vision and deep learning)",
@@ -96,7 +96,7 @@
         "mail": "chethan.sharma@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTDianaOlivia.jpg",
         "name": "Mrs. Diana Olivia",
         "position": "Assistant Professor - Selection Grade",
         "qualification": "BE(CSE), MTech(N/W), PhD*(Health Informatics)",
@@ -112,7 +112,7 @@
         "mail": "divya.r@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTDivyaS.jpg",
         "name": "Mrs. Divya S",
         "position": "Assistant Professor - Selection Grade",
         "qualification": "BE (E&E), MTech (DEAC), PhD* (Body Area Network Security)",
@@ -128,7 +128,7 @@
         "mail": "gs.prabhu@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTGirijaAttigeri.jpg",
         "name": "Dr. Girija Attigeri",
         "position": "Assistant Professor - Selection Grade",
         "qualification": "B.E.(CSE), M.Tech.(CSE), Ph.D.(Big Data Analytics)",
@@ -136,7 +136,7 @@
         "mail": "girija.attigeri@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTIpsitaUpasana.jpg",
         "name": "Mrs. Jayashree",
         "position": "Assistant Professor",
         "qualification": "B.E.(CSE) , M.Tech(CSE)",
@@ -144,7 +144,7 @@
         "mail": "jayashree.sshetty@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTRajeshRao.jpg",
         "name": "Dr. K Rajesh Rao",
         "position": "Assistant Professor - Senior Scale",
         "qualification": "B.E. (CSE), M.Tech. (CS&IS), Ph.D. (Information Security)",
@@ -152,7 +152,7 @@
         "mail": "rajesh.kavoor@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTKalirajS.jpg",
         "name": "Dr. Kaliraj S",
         "position": "Assistant Professor",
         "qualification": "B.E.(CSE) , M.Tech(CSE)",
@@ -160,7 +160,7 @@
         "mail": "kaliraj.s@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTKrishnaPrakasha.jpg",
         "name": "Dr. Krishna Prakasha K",
         "position": "Associate Professor",
         "qualification": "D.M.E., D.CSc&E., B.E.(ISE), M.Tech.(CNE), Ph.D.​(Network Security)",
@@ -168,7 +168,7 @@
         "mail": "kkp.prakash@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTManjulaShenoy.jpg",
         "name": "Dr. Manjula Shenoy K",
         "position": "Professor",
         "qualification": "B.Tech., M.Tech., Ph.D.",
@@ -176,7 +176,7 @@
         "mail": "manju.shenoy@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTManoharaPaiMM.jpg",
         "name": "Dr. Manohara M M Pai",
         "position": "Professor",
         "qualification": "B.E.(E&C), M.Tech.(DEAC), Ph.D.(CSE)",
@@ -184,7 +184,7 @@
         "mail": "mmm.pai@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTManjulaBelavagi.jpg",
         "name": "Mrs. Manjula C Belavagi",
         "position": "Assistant Professor - Selection Grade",
         "qualification": "B.E.(CSE), M.Tech.(N/W & IE), Ph.D.* (Wireless Sensor N/W Security)",
@@ -192,7 +192,7 @@
         "mail": "manjula.cb@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTNishaShetty.jpg",
         "name": "Mrs. Nisha P Shetty",
         "position": "Assistant Professor - Senior Scale",
         "qualification": "B.E.(CSE), M.Tech.(CSE), Ph.D.*(Social Media Security)",
@@ -200,7 +200,7 @@
         "mail": "nisha.pshetty@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTPoojaS.jpg",
         "name": "Mrs. Pooja S",
         "position": "Assistant Professor",
         "qualification": "B.Tech.(IT), M.Tech.(IS), Ph.D.*(Blockchain Technology)",
@@ -208,7 +208,7 @@
         "mail": "pooja.s@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTPoornalathaG.jpg",
         "name": "Dr. Poornalatha G",
         "position": "Associate Professor - Senior Scale",
         "qualification": "B.E.(CSE), M.Tech.(CSE), Ph.D.(IT)",
@@ -216,7 +216,7 @@
         "mail": "poornalatha.g@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTPreethamKumar.jpg",
         "name": "Dr. Preetham Kumar",
         "position": "Professor",
         "qualification": "BTech(CSE), MTech(CSE), PhD(Data Mining)",
@@ -224,7 +224,7 @@
         "mail": "preetham.kumar@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTRadhikaMPai.jpg",
         "name": "Dr. Radhika M Pai",
         "position": "Professor",
         "qualification": "B.E.(CSE), M.Tech.(CSE), Ph.D.(IT)",
@@ -232,7 +232,7 @@
         "mail": "radhika.pai@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTRaghavendraS.jpg",
         "name": "Dr. Raghavendra S",
         "position": "Assistant Professor",
         "qualification": "B.E.(CSE), M.Tech.(BMSP&I), Ph.D.(CSE)",
@@ -240,7 +240,7 @@
         "mail": "raghavendra.s@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTRaghavendraAchar.jpg",
         "name": "Dr. Raghavendra Achar",
         "position": "Associate Professor",
         "qualification": "BE(CSE), MTech(CSE), PhD(CSE)",
@@ -248,15 +248,7 @@
         "mail": "raghavendra.a@manipal.edu"
     },
     {
-        "pic":"",
-        "name": "Dr. Raghavendra Achar",
-        "position": "Associate Professor",
-        "qualification": "BE(CSE), MTech(CSE), PhD(CSE)",
-        "mailid": "mailto:raghavendra.n@manipal.edu",
-        "mail": "raghavendra.n@manipal.edu"
-    },
-    {
-        "pic":"",
+        "pic":"../images/Photos/ICTRaghavendraGaniga.jpg",
         "name": "Dr. Raghavendra Ganiga",
         "position": "Assistant Professor - Senior Scale",
         "qualification": "B.E.(IT), M.Tech.(N/W), Ph.D. (Electronic Health Records)",
@@ -264,7 +256,7 @@
         "mail": "raghavendra.a@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTRashmiNR.jpg",
         "name": "Dr. Rashmi Naveen Raj",
         "position": "Assistant Professor - Selection Grade",
         "qualification": "B.E.(E&E), M.Tech.(DEAC), Ph.D.(Cognitive Radio Networks)",
@@ -272,7 +264,7 @@
         "mail": "rashmi.naveen@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTRavirajHolla.jpg",
         "name": "Mr. Raviraja Holla M",
         "position": "Assistant Professor - Senior Grade",
         "qualification": "B.E. (CSE), M.Tech. (IT)",
@@ -280,7 +272,7 @@
         "mail": "raviraj.holla@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTSameenaBP.jpg",
         "name": "Dr. Sameena Pathan",
         "position": "Assistant Professor",
         "qualification": "B.E.(ECE), M.Tech. (Dig. Electronics), Ph.D. (Artificial Intelligence and Computer Vision)",
@@ -288,7 +280,7 @@
         "mail": "sameena.bp@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTSanjaySingh.jpg",
         "name": "Dr. Sanjay Singh",
         "position": "Professor",
         "qualification": "AMIETE.(E&T), M.Tech.(DEAC), Ph.D.(Wireless Communication)",
@@ -296,7 +288,7 @@
         "mail": "sanjay.singh@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTSangeethaTS.jpg",
         "name": "Mrs. Sangeetha TS",
         "position": "Assistant Professor",
         "qualification": "B.Tech.(CSE), M.Tech.(CSE)",
@@ -304,7 +296,7 @@
         "mail": "sangeetha.ts@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTSantoshKamath.jpg",
         "name": "Mr. Santhosh Kamath",
         "position": "Assistant Professor - Selection Grade",
         "qualification": "B.E.(E&C), M.Tech.(N/W), Ph.D.* (Software Defined Networks)",
@@ -312,7 +304,7 @@
         "mail": "santosh.kamath@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTSanthoshaRao.jpg",
         "name": "Dr. Santhosha Rao",
         "position": "Assistant Professor - Senior Scale",
         "qualification": "B.E.(E&C), M.Tech.(DEAC), Ph.D.(Energy Constrained Wireless Networks)",
@@ -320,7 +312,7 @@
         "mail": "santhosha.rao@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTSmithaPai.jpg",
         "name": "Dr. Smitha N Pai",
         "position": "Professor & Head",
         "qualification": "B.E.(E&C), M.Tech.(CSE), Ph.D.(Wireless Sensor Networks)",
@@ -328,7 +320,7 @@
         "mail": "smitha.pai@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTSwathiBP.jpg",
         "name": "Mrs. Swathi B P",
         "position": "Assistant Professor",
         "qualification": "B.E.(CSE), M.Tech.(S/W)",
@@ -336,7 +328,7 @@
         "mail": "swathi.bp@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTVeenaKM.jpg",
         "name": "Mrs. Veena K M",
         "position": "Assistant Professor - Senior Scale",
         "qualification": "B.E.(ISE), M.Tech.(S/W)",
@@ -360,7 +352,7 @@
         "mail": "smitha.a@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTSuchetaKolekar.jpg",
         "name": "Dr. Sucheta Kolekar",
         "position": "Assistant Professor - Selection Grade",
         "qualification": "B.E.(IT), M.Tech.(IT), Ph.D.(Adaptive E-Learning)",
@@ -368,7 +360,7 @@
         "mail": "sucheta.kolekar@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTSumithN.jpg",
         "name": "Dr. Sumith N",
         "position": "Assistant Professor - Senior Scale",
         "qualification": "B.E.(ISE), M.Tech. (CSE), Ph.D. (CSE)",
@@ -384,11 +376,19 @@
         "mail": "tribikram.pradhan@manipal.edu"
     },
     {
-        "pic":"",
+        "pic":"../images/Photos/ICTVibha.jpg",
         "name": "Mrs. Vibha",
         "position": "Assistant Professor",
         "qualification": "B.E.(ISE), M.Tech. (N/W)",
         "mailid": "mailto:vibha.prabhu@manipal.edu",
         "mail": "vibha.prabhu@manipal.edu"
+    },
+    {
+        "pic":"../images/Photos/ICTVigneshU1.png",
+        "name": "Dr Vignesh U",
+        "position": "Assistant Professor - Senior Scale",
+        "qualification": "B.E.(ISE), M.Tech. (N/W)",
+        "mailid": "mailto:u.vignesh@manipal.edu",
+        "mail": "u.vignesh@manipal.edu"
     }
 ]
