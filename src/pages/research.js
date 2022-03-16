@@ -14,7 +14,7 @@ const Research = () => {
     </div>
     </div>
     </div>
-    <table id="bg">
+    <div>
     {
         Data.filter(post => {
             if (query === '') {
@@ -31,7 +31,7 @@ const Research = () => {
         </ProjectCardStyled >
        ))
     }
-    </table>
+    </div>
     </div>
     
     )
@@ -44,12 +44,10 @@ const ProjectCardStyled = styled.div`
     flex-direction: row;
     border-bottom: 0.5px solid black;
     justify-content: space-evenly;
-#bgresearch{
     overflow:hidden;
     background-color: rgb(255, 244, 230);
     padding-bottom: 8vw;
     margin: 0;
-}
     h4{
         padding:3vw;
     }

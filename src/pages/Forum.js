@@ -75,6 +75,10 @@ background-color: rgb(255, 244, 230);
        color: rgb(119, 30, 0);}
     }
 
+    textarea {
+        font-family: 'Segoe UI';
+     }
+
     .button{
        background: rgb(119, 30, 0); 
        padding:2vw 7vw;
