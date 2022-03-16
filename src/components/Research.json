@@ -1,0 +1,296 @@
+[
+ {
+  "id": 1,
+  "faculty": "Nisha p shetty",
+  "topic": "Cyber security,Social Network Analytics, Data Analytics",
+  "Email": "nisha.pshetty@manipal.edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/nisha-p-shetty"
+ },
+ {
+  "id": 2,
+  "faculty": "Chethan Sharma",
+  "topic": "Computer vision , Data Mining  and Machine learning",
+  "Email": "chethan.sharma@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/chethan-sharma"
+ },
+ {
+  "id": 3,
+  "faculty": "Diana Olivia",
+  "topic": "Wireless Body area Network, Machine learning, Optimization ",
+  "Email": "diana.olivia@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/diana-olivia"
+ },
+ {
+  "id": 4,
+  "faculty": "Ghanashyama Prabhu",
+  "topic": "Data Analytics on Human activity recognition, Medical image processing",
+  "Email": "gs.prabhu@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/ghanashyama-prabhu"
+ },
+ {
+  "id": 5,
+  "faculty": "Santhosh Kamth",
+  "topic": "Machine learning",
+  "Email": "santosh.kamath@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/santhosh-kamath"
+ },
+ {
+  "id": 6,
+  "faculty": "Balachandra",
+  "topic": "Information Security",
+  "Email": "bala.chandra@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/balachandra-m"
+ },
+ {
+  "id": 7,
+  "faculty": "Divya S",
+  "topic": "Body area Network Security",
+  "Email": "divya.sharma@manipal.edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/divya-s"
+ },
+ {
+  "id": 8,
+  "faculty": "RAVIRAJA HOLLA M",
+  "topic": "Information security",
+  "Email": "raviraj.holla@manipal.edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/raviraja-holla-m"
+ },
+ {
+  "id": 9,
+  "faculty": "Manjula Shenoy K",
+  "topic": "semantic web,data analytics",
+  "Email": "manju.shenoy@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/manjula-shenoy-k"
+ },
+ {
+  "id": 10,
+  "faculty": "Poornalatha G",
+  "topic": "Data Mining, social network analysis, information retrieval, opinion mining",
+  "Email": "poornalatha.g@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/poornalatha-g"
+ },
+ {
+  "id": 11,
+  "faculty": "Sucheta V Kolekar",
+  "topic": "Education Mining, Learning Analytics, Internet of Things, Human Computer Interaction, Cloud Computing, Serious Game Development",
+  "Email": "sucheta.kolekar@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/sucheta-v-kolekar"
+ },
+ {
+  "id": 12,
+  "faculty": "Sanjay Singh",
+  "topic": "Computational intelligence",
+  "Email": "sanjay.singh@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/sanjay-singh"
+ },
+ {
+  "id": 13,
+  "faculty": "Tribikram Pradhan",
+  "topic": "Information Retrieval, Knowledge Graph, Recommender Systems, Natural Language Processing",
+  "Email": "tribikram.pradhan@manipal.edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/tribikram-pradhan"
+ },
+ {
+  "id": 14,
+  "faculty": "Akshay KC",
+  "topic": "Security",
+  "Email": "akshay.kc@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/akshay-k-c"
+ },
+ {
+  "id": 15,
+  "faculty": "Swathi BP",
+  "topic": "NLP, Semantic web, Information retrieval",
+  "Email": "swathi.bp@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/swathi-b-p"
+ },
+ {
+  "id": 16,
+  "faculty": "Veena K M",
+  "topic": "Software Engineering",
+  "Email": "veena.gv@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/veena-k-m"
+ },
+ {
+  "id": 17,
+  "faculty": "MANOHARA PAI M M",
+  "topic": "IOT in in healthcare, Aquaculture, nutrition and dietetics, video and image processing,Deep learning, wireless communication, Intervehicular communication and GPS.",
+  "Email": "mmm.pai@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/manohara-m-m-pai"
+ },
+ {
+  "id": 18,
+  "faculty": "Raghavedra Ganiga",
+  "topic": "Cloud Computing and Healthcare IT",
+  "Email": "raghavendra.a@manipal.edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/raghavendra-ganiga"
+ },
+ {
+  "id": 19,
+  "faculty": "Mrs. Rashmi Naveen Raj",
+  "topic": "Cognitive radio networks, Reinforcement learning",
+  "Email": "rashmi.naveen@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/rashmi-naveen-raj"
+ },
+ {
+  "id": 20,
+  "faculty": "Jayashree",
+  "topic": "Machine Learning",
+  "Email": "jayashree.sshetty@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/jayashree-b-s"
+ },
+ {
+  "id": 21,
+  "faculty": "Anuradha Rao",
+  "topic": "Software Reliability",
+  "Email": "anuradha.rao@manipal.edu ",
+  "Purelink": null
+ },
+ {
+  "id": 22,
+  "faculty": "K. RAJESH RAO",
+  "topic": "Cloud Security, Information Security, Communication Security",
+  "Email": "rajesh.kavoor@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/rajesh-rao-k"
+ },
+ {
+  "id": 23,
+  "faculty": "Chetana Pujari",
+  "topic": "Blockchain, Information security",
+  "Email": "chetana.pujari@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/chetana-pujari"
+ },
+ {
+  "id": 24,
+  "faculty": "Dr. Radhika M Pai",
+  "topic": "Information Retrieval , Semantic Web, Machine Learning and Deep Learning",
+  "Email": "radhika.pai@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/radhika-m-pai"
+ },
+ {
+  "id": 25,
+  "faculty": "Girija Attigeri",
+  "topic": "Big Data, Data Science, Machine Learning, Data Analytics",
+  "Email": "girija.attigeri@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/girija-attigeri"
+ },
+ {
+  "id": 26,
+  "faculty": "Dr. Ajitha Shenoy K B",
+  "topic": "Algorithm, Evolutionary Algorithm, Combinatorial Optimization, Computer Vision and Data Compression",
+  "Email": "ajith.Shenoy@Manipal.Edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/ajitha-shenoy-k-b-2"
+ },
+ {
+  "id": 27,
+  "faculty": "Pooja S",
+  "topic": "cyber security ..blockchain related topics",
+  "Email": "pooja.s@manipal.edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/pooja-s"
+ },
+ {
+  "id": 28,
+  "faculty": "IPSITA UPASANA",
+  "topic": "Computer Networks and Information Security",
+  "Email": "ipsita.upasana@manipal.edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/ipsita-upasana"
+ },
+ {
+  "id": 29,
+  "faculty": "Preetham Kumar",
+  "topic": "Data mining, Image processing",
+  "Email": "preetham.kumar@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/preetham-kumar"
+ },
+ {
+  "id": 30,
+  "faculty": "Sumith N",
+  "topic": "Remote sensing data,  cyber  physical system, medical data analysis, social network analysis, graph theory algorithms",
+  "Email": "sumith.n@manipal.edu",
+  "Purelink": null
+ },
+ {
+  "id": 31,
+  "faculty": "Chandrakala",
+  "topic": "Blockchain, Distributed computing, OOAD, Software Engineering",
+  "Email": "chandrakala.cb@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/chandrakala-c-b"
+ },
+ {
+  "id": 32,
+  "faculty": "Smitha N Pai",
+  "topic": "Computer vision, machine learning, AI",
+  "Email": "smitha.pai@manipal.edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/smitha-n-pai"
+ },
+ {
+  "id": 33,
+  "faculty": "Vibha",
+  "topic": "Data Science, Data Analytics",
+  "Email": "vibha.prabhu@manipal.edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/vibha-prabhu"
+ },
+ {
+  "id": 34,
+  "faculty": "Adesh N. D.",
+  "topic": "Computer Networks, Wireless Communication, Machine Learning, Deep Learning, Computer Vision",
+  "Email": "adesh.nd@manipal.edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/adesh-n-d"
+ },
+ {
+  "id": 35,
+  "faculty": "Raghavendra S",
+  "topic": "Cloud computing, Data Science, Deep Learning, Computer Vision",
+  "Email": "raghavendra.s@manipal.edu",
+  "Purelink": null
+ },
+ {
+  "id": 36,
+  "faculty": "Manjula Shenoy K",
+  "topic": "Data mining  semantic web",
+  "Email": "manju.shenoy@manipal.edu ",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/manjula-shenoy-k"
+ },
+ {
+  "id": 37,
+  "faculty": "Raghavendra Achar",
+  "topic": "Cloud Computing",
+  "Email": "raghavendra.a@manipal.edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/raghavendra-achar"
+ },
+ {
+  "id": 38,
+  "faculty": "Sameena Pathan",
+  "topic": "Artificial Intelligence, Computer Vision, Medical Image Analysis, Microwave Imaging",
+  "Email": "sameena.bp@manipal.edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/sameena-begum-pathan"
+ },
+ {
+  "id": 39,
+  "faculty": "Divya Rao",
+  "topic": "Medical Image Analysis, Artificial Intelligence",
+  "Email": "divya.r@manipal.edu",
+  "Purelink": null
+ },
+ {
+  "id": 40,
+  "faculty": "Manjula C Belavagi",
+  "topic": "Network Security, Machine Learning",
+  "Email": "manjula.cb@manipal.edu",
+  "Purelink": "https:\/\/manipal.pure.elsevier.com\/en\/persons\/manjula-c-belavagi"
+ },
+ {
+  "id": 41,
+  "faculty": "Sangeetha T S",
+  "topic": "Artificial Intelligence in Rehabilitation Engineering",
+  "Email": "sangeetha.ts@manipal.edu",
+  "Purelink": null
+ },
+ {
+  "id": 42,
+  "faculty": "Kaliraj S",
+  "topic": "Verification of Machine Learning Systems, Fault Prediction and Localization, Data Science, Machine Learning Applications, NLP, Software Testing",
+  "Email": "kaliraj.s@manipal.edu",
+  "Purelink": null
+ }
+]

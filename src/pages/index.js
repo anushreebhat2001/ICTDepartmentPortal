@@ -101,28 +101,28 @@ const Home = () => {
       <div id="button"><a id="href2" href="/News">MORE I&amp;CT NEWS/ANNOUNCEMENTS</a></div>
       </div>
       <div id='white' className='div'><div id='cl'><p className='head3'>AREAS OF RESEARCH</p></div>
-      <div><div id="research"><p id="current">Current Research</p></div>
+      <div><div id="research"><p id="current">Current Research Subjects</p></div>
         <form>
           <ul id='list1'>
-            <li id='li'>Lorem Ipsum</li>
-            <li id='li'>Lorem Ipsum</li>
-            <li id='li'>Lorem Ipsum</li>
-            <li id='li'>Lorem Ipsum</li>
-            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Cyber Security</li>
+            <li id='li'>Data Analytics</li>
+            <li id='li'>Social Network Analysis</li>
+            <li id='li'>Computer Vision</li>
+            <li id='li'>Data Mining</li>
           </ul>
           <ul id='list2'>
-            <li id='li'>Lorem Ipsum</li>
-            <li id='li'>Lorem Ipsum</li>
-            <li id='li'>Lorem Ipsum</li>
-            <li id='li'>Lorem Ipsum</li>
-            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Wireless Communication</li>
+            <li id='li'>Optimization</li>
+            <li id='li'>Software Engineering</li>
+            <li id='li'>Image processing</li>
+            <li id='li'>Information Security</li>
           </ul>
           <ul id='list2'>
-            <li id='li'>Lorem Ipsum</li>
-            <li id='li'>Lorem Ipsum</li>
-            <li id='li'>Lorem Ipsum</li>
-            <li id='li'>Lorem Ipsum</li>
-            <li id='li'>Lorem Ipsum</li>
+            <li id='li'>Semantic Web</li>
+            <li id='li'>Information Retrival</li>
+            <li id='li'>Opinion Mining</li>
+            <li id='li'>Internet of Things</li>
+            <li id='li'>NLP</li>
           </ul>
         </form>
         </div>

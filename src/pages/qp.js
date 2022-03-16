@@ -1,6 +1,6 @@
 import React from 'react'
-import styled from 'styled-components'
-import ProjectCard from '../components/ProjectCard'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFolder } from '@fortawesome/free-solid-svg-icons'
 
 const QP = () => {
     return (
@@ -12,48 +12,21 @@ const QP = () => {
     </div>
     </div>
     </div>
+
     <div id="bg">
-        <p id="pqp">Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit, sed do eiusmod 
-        tempor incididunt ut labore et dolore magna 
-        aliqua. Ut enim ad minim veniam, quis nostrud 
-        exercitation ullamco laboris nisi ut aliquip 
-        ex ea commodo consequat. Duis aute irure dolor 
-        in reprehenderit in voluptate velit esse 
-        cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident,
-        sunt in culpa qui officia deserunt mollit 
-        anim id est laborum.Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit, sed do eiusmod 
-        tempor incididunt ut labore et dolore magna 
-        aliqua. Ut enim ad minim veniam, quis nostrud 
-        exercitation ullamco laboris nisi ut aliquip 
-        ex ea commodo consequat. Duis aute irure dolor 
-        in reprehenderit in voluptate velit esse 
-        cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident,
-        sunt in culpa qui officia deserunt mollit 
-        anim id est laborum.Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit, sed do eiusmod 
-        tempor incididunt ut labore et dolore magna 
-        aliqua. Ut enim ad minim veniam, quis nostrud 
-        exercitation ullamco laboris nisi ut aliquip 
-        ex ea commodo consequat. Duis aute irure dolor 
-        in reprehenderit in voluptate velit esse 
-        cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident,
-        sunt in culpa qui officia deserunt mollit 
-        anim id est laborum.Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit, sed do eiusmod 
-        tempor incididunt ut labore et dolore magna 
-        aliqua. Ut enim ad minim veniam, quis nostrud 
-        exercitation ullamco laboris nisi ut aliquip 
-        ex ea commodo consequat. Duis aute irure dolor 
-        in reprehenderit in voluptate velit esse 
-        cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident,
-        sunt in culpa qui officia deserunt mollit 
-        anim id est laborum.</p>
+        <p id="pqp">
+            <table className='Tablesemmain'>
+            <th colspan="2">Semester</th>
+               <tbody>
+                   <tr><td className='tqp'><a className='Tablesem' href=''><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="">III Sem</a></td></tr>
+                   <tr><td className='tqp'><a className='Tablesem' href=''><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="">IV Sem</a></td></tr>
+                   <tr><td className='tqp'><a className='Tablesem' href=''><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="">V Sem</a></td></tr>
+                   <tr><td className='tqp'><a className='Tablesem' href=''><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="">VI Sem</a></td></tr>
+                   <tr><td className='tqp'><a className='Tablesem' href=''><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="">VII Sem</a></td></tr>
+                   <tr><td className='tqp'><a className='Tablesem' href=''><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="">MTech</a></td></tr>
+               </tbody>
+            </table>
+        </p>
     </div>
     </div>
     

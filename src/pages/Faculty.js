@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Data from "../components/faculty/faculty-info.json";
 import "../components/faculty/facultycard.css";
+
 const Faculty = () => {
     const [query, setQuery] = useState("");
     return (

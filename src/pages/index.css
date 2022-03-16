@@ -317,3 +317,24 @@ ul{
     margin-left: 4vw;
     margin-right: 3vw;
 }
+
+#tablehead{
+    text-align: center;
+}
+
+.Tablesemmain{
+    background-color: white;
+    padding: 5vw 10vw;
+    border-radius: 5vw;
+    border-spacing: 2vw 0.5vw;
+    text-align: left;
+
+}
+
+.Tablesem:link{
+    color: #2C1800;
+}
+
+.Tablesem:visited{
+    color: #2C1800;
+}

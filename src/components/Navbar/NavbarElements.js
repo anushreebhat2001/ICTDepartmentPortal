@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const Nav = styled.nav`
     background: white;
     height: 75px;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between ;
     align-items: center;
     padding: 0.5vw;
