@@ -13,9 +13,6 @@ const Navbar1 = () => {
                 <NavLink to="/">
                     Home
                 </NavLink>
-                <NavLink to="/#white">
-                    About
-                </NavLink>
                 <NavLink to="/Forum">
                     Forum
                 </NavLink>
@@ -30,9 +27,6 @@ const Navbar1 = () => {
                 </NavLink>
                 <NavLink to="/Events">
                     Events
-                </NavLink>
-                <NavLink to="/Facilities">
-                    Facilities
                 </NavLink>
             </NavMenu> 
            </Nav> 

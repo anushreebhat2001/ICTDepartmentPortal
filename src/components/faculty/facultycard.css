@@ -1,4 +1,5 @@
 #para{
+    position: relative;
     margin:0;
     padding-top:3vw;
     padding-right: 3vw;
@@ -8,6 +9,7 @@
 
 #facpara{
     padding: 0vw 2vw;
+    display: flex;
     margin:3vw;
     border-bottom: 1px solid black;
 }
@@ -15,4 +17,18 @@
     margin-left: 3vw;
     height: 2vw;
     width: 15vw;
+}
+
+#containerfaculty{
+    margin-left: 5vw;
+}
+
+#facultyimage{
+    height: 27vw;
+}
+
+#postname{
+    position: relative;
+    display: flex;
+    margin-top: 0;
 }

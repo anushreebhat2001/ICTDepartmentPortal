@@ -35,15 +35,15 @@ const Navbar = () => {
                 <NavLink to="/qp">
                     Question Papers
                 </NavLink>
-                <NavLink to="/placements">
+                {/* <NavLink to="/placements">
                     Placements
-                </NavLink>
+                </NavLink> */}
                 <NavLink to="/contact">
                     Contacts
                 </NavLink>
-                <NavLink to="/Admin">
+                {/* <NavLink to="/Admin">
                     Admin
-                </NavLink>
+                </NavLink> */}
             </NavMenu> }
            </Nav> 
         </>

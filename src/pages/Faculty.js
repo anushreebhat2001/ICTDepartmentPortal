@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Data from "../components/faculty/faculty-info.json";
 import "../components/faculty/facultycard.css";
-
 const Faculty = () => {
     const [query, setQuery] = useState("");
     return (
@@ -25,11 +24,14 @@ const Faculty = () => {
                             }
                         }).map((post, index) => (
                             <div id='facpara' key={index}>
-                            <h4>{post.name}</h4>
+                            <img id='facultyimage' src={post.pic}></img>
+                            <div id='containerfaculty'>
+                            <h4 id="postname">{post.name}</h4>
                             <h5>{post.position}</h5>
                             <p>Department of Information & Communication Technology</p>
                             <h4>Qualification:</h4><p>{post.qualification}</p>
                             <p><a href={post.mailid}>{post.mail}</a></p>
+                            </div>
                             </div>
                         ))
                     }
