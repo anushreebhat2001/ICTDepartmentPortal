@@ -21,43 +21,47 @@ const Events = () => {
                   <tr>
                   <td>
                   <EventCard 
+                    poster={post.poster1}
                     day={post.d1} 
                     month={post.m1} 
                     eventname={post.n1}
                     venue={post.v1} 
                     time={post.t1} 
                     description={post.desc1}
-                    link='/Events'/>
+                    link={post.link1}/>
                     </td>
                     <td>
                   <EventCard 
+                    poster={post.poster2}
                     day={post.d2} 
                     month={post.m2} 
                     eventname={post.n2}
                     venue={post.v2} 
                     time={post.t2} 
                     description={post.desc2}
-                    link='/Events'/>
+                    link={post.link2}/>
                     </td>
                     <td>
                   <EventCard 
+                    poster={post.poster3}
                     day={post.d3} 
                     month={post.m3} 
                     eventname={post.n3}
                     venue={post.v3} 
                     time={post.t3} 
                     description={post.desc3}
-                    link='/Events'/>
+                    link={post.link3}/>
                     </td>
                     <td>
                   <EventCard 
+                    poster={post.poster4}
                     day={post.d4} 
                     month={post.m4} 
                     eventname={post.n4}
                     venue={post.v4} 
                     time={post.t4} 
                     description={post.desc4}
-                    link='/Events'/>
+                    link={post.link4}/>
                     </td>
                     </tr>
                   </table>

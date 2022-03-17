@@ -3,13 +3,18 @@
     width: 21vw;
 }
 #uppercard{
-    background: url(../../images/20190719_093108.jpg);
+    /*background: url(../../images/20190719_093108.jpg);*/
     background-size: cover;
     position: relative;
     background-color: #FFE4D9;
     height: 20vw;
     width: 21vw;
     margin: 0vw 2vw;
+}
+
+#pic {
+    height: 21vw;
+    width: 21vw;
 }
 
 #lowercard{
@@ -96,15 +101,26 @@
 #popupcard{
     margin: 0;
     padding: 2vw;
-    font-size: 2.6vw;
+    padding-top: 0.2vw;
+    font-size: 2vw;
     text-align: left;
 }
 
 #popupdesc{
     padding-left: 2vw;
-    padding-bottom: 1.4vw;
+    margin-top: 0;
+    padding-bottom: 1vw;
     padding-right: 2vw;
-    font-size: 2.5vw;
+    font-size: 1.7vw;
+    color: #2C1800;
+    text-align: left;
+}
+#linkpopup {
+    padding-left: 0;
+    margin-top: -2vw;
+    padding-bottom: 1vw;
+    padding-right: 2vw;
+    font-size: 1.7vw;
     color: #2C1800;
     text-align: left;
 }

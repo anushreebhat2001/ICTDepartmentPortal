@@ -264,7 +264,14 @@ table{
     padding-left: 2vw;
     padding-right: 2vw;
     padding-top: 7vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
+    color: white;
+}
+#newsarticlesmall{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 7vw;
+    font-size: 1.1vw;
     color: white;
 }
 

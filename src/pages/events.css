@@ -41,6 +41,8 @@ table {
 }
 #ecard1 {
     border-spacing: 1vw 0.5vw;
+    white-space: pre-line;  
+    vertical-align: bottom;
 }
 
 .contacts{

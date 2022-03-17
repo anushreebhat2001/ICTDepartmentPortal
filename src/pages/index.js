@@ -5,6 +5,7 @@ import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import { EventCard } from "../components/eventscard/EventsCard";
 import EventsData from "../components/events/events-info.json";
+import NewsData from "../components/news/news-info.json";
 
 const fadeImages = [
   "https://manipal.edu/content/dam/manipal/mu/mit/images/galleryImage/1-mit-laboratory.jpg",
@@ -83,43 +84,47 @@ const Home = () => {
                   <tr>
                   <td>
                   <EventCard 
+                    poster={EventsData[0].poster1}
                     day={EventsData[0].d1} 
                     month={EventsData[0].m1} 
                     eventname={EventsData[0].n1}
                     venue={EventsData[0].v1} 
                     time={EventsData[0].t1} 
                     description={EventsData[0].desc1}
-                    link='/Events'/>
+                    link={EventsData[0].link1}/>
                     </td>
                     <td>
                   <EventCard 
+                    poster={EventsData[0].poster2}
                     day={EventsData[0].d2} 
                     month={EventsData[0].m2} 
                     eventname={EventsData[0].n2}
                     venue={EventsData[0].v2} 
                     time={EventsData[0].t2} 
                     description={EventsData[0].desc2}
-                    link='/Events'/>
+                    link={EventsData[0].link2}/>
                     </td>
                     <td>
                   <EventCard 
+                    poster={EventsData[0].poster3}
                     day={EventsData[0].d3} 
                     month={EventsData[0].m3} 
                     eventname={EventsData[0].n3}
                     venue={EventsData[0].v3} 
                     time={EventsData[0].t3} 
                     description={EventsData[0].desc3}
-                    link='/Events'/>
+                    link={EventsData[0].link3}/>
                     </td>
                     <td>
                   <EventCard 
+                    poster={EventsData[0].poster4}
                     day={EventsData[0].d4} 
                     month={EventsData[0].m4} 
                     eventname={EventsData[0].n4}
                     venue={EventsData[0].v4} 
                     time={EventsData[0].t4} 
                     description={EventsData[0].desc4}
-                    link='/Events'/>
+                    link={EventsData[0].link4}/>
                     </td>
                     </tr>
                   </table>
@@ -129,9 +134,9 @@ const Home = () => {
       </div>
       <div id='light' className='div'><div id='cl'><p className='head3'>I&amp;CT NEWS/ANNOUNCEMENTS</p></div>
       <div id="news">
-        <div className='article' id='big'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum...<a id="newread" href="/News">Read more</a></p></div>
-        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="/News">Read more</a></p></div>
-        <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="/News">Read more</a></p></div></div>
+        <div className='article' id='big'><p id='newsarticle'><h3>{NewsData[0].titl}</h3>{NewsData[0].sdesc}<a id="newread" href="/News">Read more</a></p></div>
+        <div className='article' id='small'><p id='newsarticlesmall'><h4>{NewsData[1].titl}</h4>{NewsData[1].sdesc}<a id="newread" href="/News">Read more</a></p></div>
+        <div className='article' id='small'><p id='newsarticlesmall'><h4>{NewsData[2].titl}</h4>{NewsData[2].sdesc}<a id="newread" href="/News">Read more</a></p></div></div>
         <div id="news">
         <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="/News">Read more</a></p></div>
         <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="/News">Read more</a></p></div>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from 'styled-components';
 import Popup from "./popup/Popup";
     
-    export function NewsCard ({ title, day, description })  {
+    export function NewsCard ({ title, day, smalldesc, description })  {
         const [isOpen, setIsOpen] = useState(false);
     
         const togglePopup = () => {
@@ -14,7 +14,7 @@ import Popup from "./popup/Popup";
             <div className="main">
                 <h2 className="News">{title}</h2>
                 <p id='day'>{day}</p>
-                <p id='pan'>{description}...<span><div id="read"><button className="readmorenews" onClick={togglePopup} >Read more</button></div>
+                <p id='pan'>{smalldesc}...<span><div id="read"><button className="readmorenews" onClick={togglePopup} >Read more</button></div>
                 {isOpen && <Popup
                 content={<>
                     <b id="eventname">{title}</b>
@@ -35,15 +35,15 @@ const NewsCardStyled = styled.main`
     padding-right: 4vw;
     #eventname{
         padding:3vw;
-        font-size:3.6vw;
+        font-size:2.5vw;
     }
     #popupcard{
         padding-left:3vw;
-        font-size:2.3vw;
+        font-size:1.9vw;
     }
     #popupdesc{
         padding-left:3vw;
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
     #day{
         font-weight:500;
