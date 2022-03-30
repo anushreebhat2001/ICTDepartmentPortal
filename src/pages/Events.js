@@ -21,7 +21,7 @@ const Events = () => {
                   <tr>
                   <td>
                   <EventCard 
-                    poster={post.poster1}
+                    poster={process.env.PUBLIC_URL + post.poster1}
                     day={post.d1} 
                     month={post.m1} 
                     eventname={post.n1}
@@ -32,7 +32,7 @@ const Events = () => {
                     </td>
                     <td>
                   <EventCard 
-                    poster={post.poster2}
+                    poster={process.env.PUBLIC_URL + post.poster2}
                     day={post.d2} 
                     month={post.m2} 
                     eventname={post.n2}
@@ -43,7 +43,7 @@ const Events = () => {
                     </td>
                     <td>
                   <EventCard 
-                    poster={post.poster3}
+                    poster={process.env.PUBLIC_URL + post.poster3}
                     day={post.d3} 
                     month={post.m3} 
                     eventname={post.n3}
@@ -54,7 +54,7 @@ const Events = () => {
                     </td>
                     <td>
                   <EventCard 
-                    poster={post.poster4}
+                    poster={process.env.PUBLIC_URL + post.poster4}
                     day={post.d4} 
                     month={post.m4} 
                     eventname={post.n4}

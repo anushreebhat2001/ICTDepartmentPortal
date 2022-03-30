@@ -84,7 +84,7 @@ const Home = () => {
                   <tr>
                   <td>
                   <EventCard 
-                    poster={EventsData[0].poster1}
+                    poster={process.env.PUBLIC_URL + EventsData[0].poster1}
                     day={EventsData[0].d1} 
                     month={EventsData[0].m1} 
                     eventname={EventsData[0].n1}
@@ -95,7 +95,7 @@ const Home = () => {
                     </td>
                     <td>
                   <EventCard 
-                    poster={EventsData[0].poster2}
+                    poster={process.env.PUBLIC_URL + EventsData[0].poster2}
                     day={EventsData[0].d2} 
                     month={EventsData[0].m2} 
                     eventname={EventsData[0].n2}
@@ -106,7 +106,7 @@ const Home = () => {
                     </td>
                     <td>
                   <EventCard 
-                    poster={EventsData[0].poster3}
+                    poster={process.env.PUBLIC_URL + EventsData[0].poster3}
                     day={EventsData[0].d3} 
                     month={EventsData[0].m3} 
                     eventname={EventsData[0].n3}
@@ -117,7 +117,7 @@ const Home = () => {
                     </td>
                     <td>
                   <EventCard 
-                    poster={EventsData[0].poster4}
+                    poster={process.env.PUBLIC_URL + EventsData[0].poster4}
                     day={EventsData[0].d4} 
                     month={EventsData[0].m4} 
                     eventname={EventsData[0].n4}

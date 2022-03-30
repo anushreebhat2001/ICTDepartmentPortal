@@ -25,7 +25,7 @@ const Faculty = () => {
                             }
                         }).map((post, index) => (
                             <div id='facpara' key={index}>
-                            <img id='facultyimage' src={post.pic}></img>
+                            <img id='facultyimage' src={process.env.PUBLIC_URL + post.pic}></img>
                             <div id='containerfaculty'>
                             <h4 id="postname">{post.name}</h4>
                             <h5>{post.position}</h5>
