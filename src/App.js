@@ -26,7 +26,7 @@ function App() {
     <Router>
     <Navbar1 /> 
     <Navbar />
-      <Routes> 
+      <Routes basename="ICTDepartmentPortal"> 
         <Route path="/" element={<Home/>} />
         <Route path="/About" element={<About/>}/>
         <Route path="/Forum" element={<Forum/>} />
