@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ICTDepartmentPortal/static/css/main.209b1352.css",
-    "main.js": "/ICTDepartmentPortal/static/js/main.eb362d9e.js",
+    "main.js": "/ICTDepartmentPortal/static/js/main.a751a35b.js",
     "static/js/787.65bb3bf9.chunk.js": "/ICTDepartmentPortal/static/js/787.65bb3bf9.chunk.js",
     "static/media/20190719_093108.jpg": "/ICTDepartmentPortal/static/media/20190719_093108.f7ac7d520fb248f69122.jpg",
     "static/media/news.jpeg": "/ICTDepartmentPortal/static/media/news.bf753f0932bb82b80860.jpeg",
@@ -9,11 +9,11 @@
     "static/media/newsbig.jpg": "/ICTDepartmentPortal/static/media/newsbig.ce103b9b2da04c85b57e.jpg",
     "index.html": "/ICTDepartmentPortal/index.html",
     "main.209b1352.css.map": "/ICTDepartmentPortal/static/css/main.209b1352.css.map",
-    "main.eb362d9e.js.map": "/ICTDepartmentPortal/static/js/main.eb362d9e.js.map",
+    "main.a751a35b.js.map": "/ICTDepartmentPortal/static/js/main.a751a35b.js.map",
     "787.65bb3bf9.chunk.js.map": "/ICTDepartmentPortal/static/js/787.65bb3bf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.209b1352.css",
-    "static/js/main.eb362d9e.js"
+    "static/js/main.a751a35b.js"
   ]
 }
