@@ -23,10 +23,10 @@ import Adminnews from "./pages/admin/adminnews";
 
 function App() {
   return (
-    <Router>
+    <Router basename="ICTDepartmentPortal">
     <Navbar1 /> 
     <Navbar />
-      <Routes basename="ICTDepartmentPortal"> 
+      <Routes> 
         <Route path="/" element={<Home/>} />
         <Route path="/About" element={<About/>}/>
         <Route path="/Forum" element={<Forum/>} />
