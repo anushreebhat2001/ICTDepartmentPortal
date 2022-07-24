@@ -40,7 +40,7 @@ const Research = () => {
 const ProjectCardStyled = styled.div`
     display: flex;
     overflow:hidden;
-    padding: 2.5vw;
+    padding: 2.5vw 7vw;
     flex-direction: row;
     border-bottom: 0.5px solid black;
     justify-content: space-evenly;
@@ -50,6 +50,7 @@ const ProjectCardStyled = styled.div`
     margin: 0;
     h4{
         padding:3vw;
+        font-size: 3vw;
     }
     a
     {

@@ -45,7 +45,7 @@ const ForumStyled = styled.div`
 background-color: rgb(255, 244, 230);
 #forum{
     background-color: rgb(255, 244, 230);
-    padding-bottom:5vh;
+    padding:8vh 0vh;
 
     h3{
         text-align:center;
@@ -57,10 +57,9 @@ background-color: rgb(255, 244, 230);
     background:white;
     display:flex;
     flex-direction:column;
-    padding:8vw;
+    padding:10vw;
     margin:auto;
-    margin-top:5vh;
-    width:50%;
+    width:70%;
     max=width: 30vw;
     border-radius:5vw;
 

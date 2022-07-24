@@ -332,10 +332,11 @@ ul{
 
 .Tablesemmain{
     background-color: white;
-    padding: 5vw 10vw;
+    padding: 7.5vw 15vw;
     border-radius: 5vw;
-    border-spacing: 2vw 0.5vw;
+    border-spacing: 3vw 2vw;
     text-align: left;
+    font-size: 3vw;
 
 }
 
@@ -345,4 +346,58 @@ ul{
 
 .Tablesem:visited{
     color: #2C1800;
+}
+.infobg{
+    padding: 5vw;
+    background-color:#FFEBD8 ;
+}
+
+#infobrochure{
+    padding: 3vw;
+    border-radius: 2vw;
+    font-size: 2vw;
+}
+#infobrochure:hover{
+    color:  brown;
+}
+#infobrochure:link{
+    color: #2C1800;
+}
+#infobrochure:visited{
+    color: #2C1800;
+}
+
+#statistics{
+    padding: 3vw;
+    border-radius: 2vw;
+    font-size: 2vw;
+}
+#statistics:hover{
+    color:  brown;
+}
+#statistics:link{
+    color: #2C1800;
+}
+#statistics:visited{
+    color: #2C1800;
+}
+
+.placementstatistics{
+    text-align: center;
+    padding: 2vw;
+    border-top: 1px solid #2C1800;
+    border-left: 1px solid #2C1800;
+    border-right: 1px solid #2C1800;
+}
+.tplacements{
+    border: 1px solid #2C1800;
+    padding: 4vw;
+    font-size: 2vw;
+    border-collapse: collapse;
+    margin: 4vw auto;
+}
+.tableplacements{
+    border: 1px solid #2C1800;
+    padding: 2vw 9vw;
+    border-collapse: collapse;
 }

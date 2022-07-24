@@ -10,7 +10,6 @@ import Academics from "./pages/Academics";
 import Faculty from "./pages/Faculty";
 import News from "./pages/News";
 import Events from "./pages/Events";
-import Facilities from "./pages/Facilities";
 import Research from './pages/research';
 import QP from './pages/qp';
 import Placements from './pages/placements';
@@ -34,7 +33,6 @@ function App() {
         <Route path="/Faculty" element={<Faculty/>} />
         <Route path="/News" element={<News/>} />
         <Route path="/Events" element={<Events/>} />
-        <Route path="/Facilities" element={<Facilities/>} />
         <Route path="/research" element={<Research/>} />
         <Route path="/qp" element={<QP/>} />
         <Route path="/placements" element={<Placements/>} />
