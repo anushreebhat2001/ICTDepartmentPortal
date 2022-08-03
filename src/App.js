@@ -15,10 +15,6 @@ import QP from './pages/qp';
 import Placements from './pages/placements';
 import Contact from './pages/contact';
 import Footer from "./components/Footer/footer";
-import Admin from "./pages/admin/admin";
-import Adminevent from "./pages/admin/adminevents";
-import Adminresearch from "./pages/admin/adminresearch";
-import Adminnews from "./pages/admin/adminnews";
 
 function App() {
   return (
@@ -37,12 +33,8 @@ function App() {
         <Route path="/qp" element={<QP/>} />
         <Route path="/placements" element={<Placements/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/Admin" element={<Admin/>} />
-        <Route path="/Adminevent" element={<Adminevent/>} />
-        <Route path="/Adminresearch" element={<Adminresearch/>} />
-        <Route path="/Adminnews" element={<Adminnews/>} />
       </Routes>
-      <Footer />
+      <Footer/>
     </Router>
   );
 }
