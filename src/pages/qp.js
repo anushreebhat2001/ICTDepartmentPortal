@@ -18,12 +18,8 @@ const QP = () => {
             <table className='Tablesemmain'>
             <th colspan="2">Semester</th>
                <tbody>
-                   <tr><td className='tqp'><a className='Tablesem' href=''><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="">III Sem</a></td></tr>
-                   <tr><td className='tqp'><a className='Tablesem' href=''><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="">IV Sem</a></td></tr>
-                   <tr><td className='tqp'><a className='Tablesem' href=''><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="">V Sem</a></td></tr>
-                   <tr><td className='tqp'><a className='Tablesem' href=''><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="">VI Sem</a></td></tr>
-                   <tr><td className='tqp'><a className='Tablesem' href=''><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="">VII Sem</a></td></tr>
-                   <tr><td className='tqp'><a className='Tablesem' href=''><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="">MTech</a></td></tr>
+                   <tr><td className='tqp'><a className='Tablesem' href='https://learnermanipal-my.sharepoint.com/:f:/g/personal/nisha_pshetty_manipal_edu/Etrf3xyG4DlIikR-__jgbwkBO-qCTL6vb6MzvxgAzQmrFA?e=kDSKAk'><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="https://learnermanipal-my.sharepoint.com/:f:/g/personal/nisha_pshetty_manipal_edu/Etrf3xyG4DlIikR-__jgbwkBO-qCTL6vb6MzvxgAzQmrFA?e=kDSKAk">CCE </a></td></tr>
+                   <tr><td className='tqp'><a className='Tablesem' href='https://learnermanipal-my.sharepoint.com/:f:/g/personal/nisha_pshetty_manipal_edu/EqYkLXz_5NpIhPGTgBQpQZcBvhESCQRNptadprGImiJ2Uw?e=WUQwTZ'><FontAwesomeIcon icon = {faFolder}/></a></td><td><a className='Tablesem' href="https://learnermanipal-my.sharepoint.com/:f:/g/personal/nisha_pshetty_manipal_edu/EqYkLXz_5NpIhPGTgBQpQZcBvhESCQRNptadprGImiJ2Uw?e=WUQwTZ">IT </a></td></tr>
                </tbody>
             </table>
         </p>
