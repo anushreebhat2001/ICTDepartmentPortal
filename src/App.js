@@ -33,6 +33,7 @@ function App() {
         <Route path="/qp" element={<QP/>} />
         <Route path="/placements" element={<Placements/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="*" render={() => "404 Not found!"} />
       </Routes>
       <Footer/>
     </Router>
