@@ -14,7 +14,8 @@ const Research = () => {
     </div>
     </div>
     </div>
-    <div>
+    <div id = 'maint'>
+    <table id='t'>
     {
         Data.filter(post => {
             if (query === '') {
@@ -24,13 +25,16 @@ const Research = () => {
             }
          }).map((post, index) => (
         <ProjectCardStyled>
-            <h4>{post.topic}</h4>
-            <h4>{post.faculty}</h4> {/* This must be a link, once i figure out how to connect external links in react, this will redirect you to the faculty's page on Manipal.edu */}
-            <h4><a href={post.Purelink}>Pure Link</a></h4>
-            <h4>{post.Email}</h4>
-        </ProjectCardStyled >
+  <tr>
+    <td>{post.topic}</td>
+    <td>{post.faculty}</td>
+    <td><a href={post.Purelink}>Pure Link</a></td>
+    <td>{post.Email}</td>
+  </tr>
+    </ProjectCardStyled >
        ))
     }
+    </table> 
     </div>
     </div>
     
@@ -40,23 +44,25 @@ const Research = () => {
 const ProjectCardStyled = styled.div`
     display: flex;
     overflow:hidden;
-    padding: 2.5vw 7vw;
+    padding: 0vw 7vw;
     flex-direction: row;
     border-bottom: 0.5px solid black;
     justify-content: space-evenly;
     overflow:hidden;
     background-color: rgb(255, 244, 230);
-    padding-bottom: 8vw;
+    padding-bottom: 2vw;
     margin: 0;
-    h4{
+    td{
         padding:3vw;
-        font-size: 3vw;
+        font-size: 1.5vw;
+        font-weight: 600;
+        align-self: left;
     }
     a
     {
-        text-decoration: none;
         color: orange;
         transition: 0.35s all ease-in-out;
+        font-weight: 700;
 
         &:hover
         {

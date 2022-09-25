@@ -134,9 +134,9 @@ const Home = () => {
       </div>
       <div id='light' className='div'><div id='cl'><p className='head3'>I&amp;CT NEWS/ANNOUNCEMENTS</p></div>
       <div id="news">
-        <div className='article' id='big'><p id='newsarticle'><h3>{NewsData[0].titl}</h3>{NewsData[0].sdesc}<a id="newread" href="/News">Read more</a></p></div>
-        <div className='article' id='small'><p id='newsarticlesmall'><h4>{NewsData[1].titl}</h4>{NewsData[1].sdesc}<a id="newread" href="/News">Read more</a></p></div>
-        <div className='article' id='small'><p id='newsarticlesmall'><h4>{NewsData[2].titl}</h4>{NewsData[2].sdesc}<a id="newread" href="/News">Read more</a></p></div></div>
+        <div className='article' id='big'><p id='newsarticle'><h3>{NewsData[0].titl}</h3>{NewsData[0].desc.split(' ').slice(0, 45).join(' ')}...<a id="newread" href="/News">Read more</a></p></div>
+        <div className='article' id='small'><p id='newsarticle'><h4>{NewsData[1].titl}</h4>{NewsData[1].desc.split(' ').slice(0, 15).join(' ')}...<a id="newread" href="/News">Read more</a></p></div>
+        <div className='article' id='small'><p id='newsarticle'><h4>{NewsData[2].titl}</h4>{NewsData[2].desc.split(' ').slice(0, 15).join(' ')}...<a id="newread" href="/News">Read more</a></p></div></div>
         <div id="news">
         <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="/News">Read more</a></p></div>
         <div className='article' id='small'><p id='newsarticle'><h3>News Title</h3>Lorem ipsum Lorem ipsum Lorem ipsum Lorem...<a id="newread" href="/News">Read more</a></p></div>

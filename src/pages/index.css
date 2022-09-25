@@ -337,7 +337,6 @@ ul{
     border-spacing: 3vw 2vw;
     text-align: left;
     font-size: 3vw;
-
 }
 
 .Tablesem:link{
@@ -382,6 +381,15 @@ ul{
     color: #2C1800;
 }
 
+#t{
+    border-spacing: 0vw;
+    margin-bottom: 0vw;
+}
+
+#maint{
+    padding: 6vw;
+    background-color: rgb(255, 244, 230);
+}
 .placementstatistics{
     text-align: center;
     padding: 2vw;
